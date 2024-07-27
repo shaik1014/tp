@@ -1,0 +1,147 @@
+
+.logo{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+.center {
+  
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.slide {    
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.title{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 2vh;
+
+}
+
+
+.HEAD{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    color: white;
+    
+}
+
+
+
+
+.round-images{
+    
+    
+    width: 125px;
+    height: 125px;
+    object-fit:cover; 
+    border-radius: 50%;
+
+
+}
+
+.cast{
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+
+
+.text{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+
+    color: white;
+}
+
+.button {
+    background-color: #000000;
+    border: 4px color-mix(in srgb, color percentage, color percentage);
+    color: rgb(246, 246, 246);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    
+  }
+
+.bottombutton{
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 98%;
+
+}  
+
+.castclub{
+
+    margin-bottom: 60px;
+}
+
+.container{
+    position:relative;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 296px;
+}
+
+.hsimg{
+    position: relative;
+    margin-top: 2vh;
+    height: 300px;
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
