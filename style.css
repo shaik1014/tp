@@ -161,6 +161,16 @@ justify-content: center;
 }
 
 
+#loader{
+
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(footergif.gif) no-repeat center;
+    z-index: 999;
+}
+
 
 
 
