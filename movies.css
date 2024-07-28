@@ -1,0 +1,77 @@
+
+.container{
+    position:relative;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+.mainbox{
+    height: 1200px;
+
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 1%;
+    width: 98%;
+    
+}
+
+.rectangle1{
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(210, 57, 57);
+    
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+    
+}
+
+
+.rectangle2{
+    height: 975px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgb(65, 67, 81);
+
+    border-radius: 20px;
+    position: relative;
+    margin-top: -50px;
+    
+    
+}
+
+.hsimg{
+    position: relative;
+    top: -1062.5px;
+    height: 300px;
+    width: 300px;
+    
+
+    
+   
+}
+
+.rec1img{
+
+    width: 100%;
+    margin-top: -25px;
+    opacity: 0.5;
+
+}
+
+.rec2img{
+    height: 975px;
+    width: 100%;
+    border-radius: 20px;
+    
+    
+}
