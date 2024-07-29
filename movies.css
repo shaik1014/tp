@@ -1,77 +1,88 @@
-
-.container{
-    position:relative;
-    text-align: center;
-    color: white;
-
-}
-
-
-
-
-
-.mainbox{
-    height: 1200px;
-
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    top: 0;
-    left: 1%;
-    width: 98%;
+.logo{
+    display: flex;
+    justify-content: center;
     
-}
-
-.rectangle1{
-    height: 200px;
-    width: 100%;
+    }
+    
+    .HEAD{
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        font-style: normal;
+        color: white;
+        
+    }
+.sideheads{
+    margin-top: 25px;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(210, 57, 57);
-    
-    border-radius: 20px;
-    position: relative;
-    top: 10px;
-    
+    color: white;
+    font-weight: bolder;
 }
 
-
-.rectangle2{
-    height: 975px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto; 
-    background-color: rgb(65, 67, 81);
-
-    border-radius: 20px;
+.rec{
+    width: 195px;
+    height: 110px;
+    background-color: orange;
     position: relative;
-    margin-top: -50px;
+    border-radius: 10px;
     
     
 }
 
-.hsimg{
-    position: relative;
-    top: -1062.5px;
-    height: 300px;
-    width: 300px;
-    
+.movietext{
 
+    width: 195px;
+    position: relative;
+    text-align: center;
+    color: white;
     
-   
+    
 }
 
-.rec1img{
 
+
+.movieandtext{
+    margin-right: 5px;
+    margin-left: 5px;
+
+    
+    
+}
+
+.movie{
     width: 100%;
-    margin-top: -25px;
-    opacity: 0.5;
-
-}
-
-.rec2img{
-    height: 975px;
-    width: 100%;
-    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 140px;
     
     
+    
+    overflow-x: auto;
+  
+    
 }
+
+.recimg{
+
+    width: 195px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+
+/*Removing the scroll bar during overflows*/
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .movie::-webkit-scrollbar {
+            display: none;
+        }
+        
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .movie {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        
+/*Removing the scroll bar during overflows*/
