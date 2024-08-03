@@ -82,28 +82,7 @@
         color: white;
     }
     
-    .button {
-        background-color: #000000;
-        border: 4px color-mix(in srgb, color percentage, color percentage);
-        color: rgb(246, 246, 246);
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 16px;
-        
-      }
-    
-    .bottombutton{
-        position: fixed;
-        bottom: 0%;
-        display: flex;
-        justify-content: space-evenly;
-        width: 98%;
-    
-    }  
+      
     
     .castclub{
     
@@ -186,6 +165,37 @@
         
         height: 200px;
     }
+
+    .button {
+        background-color: #000000;
+        border: 4px color-mix(in srgb, color percentage, color percentage);
+        color: rgb(246, 246, 246);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+        
+      }
+
+      .button:hover{
+        background-color: crimson;
+        
+        
+      }
+    
+    .bottombutton{
+        position: fixed;
+        bottom: 0%;
+        display: flex;
+        justify-content: space-evenly;
+        width: 98%;
+    
+    }
+
+   
     
 
 
@@ -295,7 +305,7 @@
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        height: 325px;
+        height: 375px;
         
         
         
@@ -305,8 +315,8 @@
     }
 
     .genrerec{
-        width: 420px;
-        height: 300px;
+        width: 200px;
+        height: 350px;
         background-color: orange;
         position: relative;
         border-radius: 10px;
@@ -316,15 +326,15 @@
 
     .genreimg{
     
-        width: 420px;
-        height: 300px;
+        width: 200px;
+        height: 375px;
         border-radius: 10px;
     }
     
 
     .genretext{
     
-        width: 420px;
+        width: 200px;
         position: relative;
         text-align: center;
         color: white;
@@ -345,13 +355,28 @@
 
 }    
 
-@media screen and (min-width:611px) and (max-width:875px){
+@media screen and (min-width:611px) and (max-width:744px){
 
 .d-block{
 
     height:250px;
 }
+    
+}
 
+@media screen and (min-width:745px) {
+
+    .d-block{
+
+        height:350px;
+    }
+
+    .round-images{
+        width: 170px;
+        height: 170px;
+        object-fit:cover; 
+        border-radius: 50%;
+    }
     
 }
 
