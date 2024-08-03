@@ -19,8 +19,16 @@
         margin-left: auto;
         margin-right: auto;
         
+        
     }
-    
+
+    .d-block{
+        height: 200px;
+    }
+
+
+
+
     .title{
         width: 98%;
         margin-left: auto;
@@ -101,6 +109,8 @@
     
         margin-bottom: 30px;
     }
+
+    
     
     .container{
         position:relative;
@@ -215,7 +225,7 @@
     
     .movieandtext{
         margin-right: 5px;
-        margin-left: 5px;
+        margin-left: 10px;
     
         
         
@@ -257,13 +267,126 @@
             
     /*Removing the scroll bar during overflows*/
 
+    .actors{
+    
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+        
+    }    
+
+    .movieactors{
+        margin-bottom: 30px;
+        overflow-x: auto;
+
+    }
+
+    .movieactorsroundimg{
+        width: 125px;
+        height: 125px;
+        object-fit:cover; 
+        border-radius: 50%;
+        margin: 0 5px;
+    
+
+    }
+
+    .genre{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 325px;
+        
+        
+        
+        overflow-x: auto;
+      
+        
+    }
+
+    .genrerec{
+        width: 420px;
+        height: 300px;
+        background-color: orange;
+        position: relative;
+        border-radius: 10px;
+        
+        
+    }
+
+    .genreimg{
+    
+        width: 420px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+
+    .genretext{
+    
+        width: 420px;
+        position: relative;
+        text-align: center;
+        color: white;
+        
+        
+    }
+
 
 
     /*MOVIE*/
     
     
+
+
+@media screen and (min-width:410px) and (max-width:610px) {
     
+    /*already compatible from width 410px to 600px*/
+
+}    
+
+@media screen and (min-width:611px) and (max-width:875px){
+
+.d-block{
+
+    height:250px;
+}
+
     
+}
+
+/*Removing the scroll bar during overflows*/
+    
+            /* Hide scrollbar for Chrome, Safari and Opera */
+            .wokrspace::-webkit-scrollbar {
+                display: none;
+            }
+            
+            /* Hide scrollbar for IE, Edge and Firefox */
+            .workspace {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+
+            .movieactors::-webkit-scrollbar {
+                display: none;
+            }
+            .movieactors {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+
+            .genre::-webkit-scrollbar {
+                display: none;
+            }
+            .genre {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+            
+/*Removing the scroll bar during overflows*/
+
+
     
     
     
