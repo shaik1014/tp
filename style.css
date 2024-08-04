@@ -1,4 +1,31 @@
 
+.loader {
+    
+  height:100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  color: white;
+  
+ 
+ 
+    
+}
+.loading-logo{
+    height: 200px;
+    width: 225px;
+    margin-top: 60%;
+    
+   
+}
+
+
+
+
+
+
+
 .logo{
     display: flex;
     justify-content: center;
@@ -24,6 +51,7 @@
 
     .d-block{
         height: 200px;
+        border-radius: 15px;
     }
 
 
@@ -40,7 +68,7 @@
     
     
     .HEAD{
-        width: 98%;
+        width: 100%;
         display: flex;
         justify-content: center;
         font-style: normal;
@@ -202,6 +230,31 @@
 
     /*MOVIE*/
 
+
+    .navbuttoncontainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 0;
+        left: 0;
+    
+    }
+
+    .navbutton{
+        width: 14rem;
+        height: 50px;
+        background-color: #000000;
+        color: white;
+        border-color: rgb(59, 58, 58);
+        border-style:solid;
+    }
+
+    .navbutton:hover{
+        background-color: crimson;
+        
+        
+      }
+    
+
     .sideheads{
         margin-top: 25px;
         width: 95%;
@@ -346,6 +399,20 @@
 
     /*MOVIE*/
     
+
+
+
+    /*MUSIC*/
+
+
+    .musicpage{
+        margin-top: 150px;
+    }
+
+
+
+     /*MUSIC*/
+
     
 
 
