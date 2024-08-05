@@ -1,0 +1,597 @@
+
+.loader {
+    
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    
+   
+   
+      
+  }
+  .loading-logo{
+      height: 200px;
+      width: 225px;
+      margin-top: 60%;
+      
+     
+  }
+  
+  .load-logo{
+
+    display: flex;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  
+  
+  
+  
+  .logo{
+      display: flex;
+      width: 95%;
+      margin: auto;
+      justify-content: space-between;
+      align-items: center;
+      
+      }
+
+      .bottomlogo{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content:center;
+    }    
+     
+      
+      
+      
+      .center {
+        
+          display: flex;
+          justify-content: center;
+          
+        }
+      
+      .slide {    
+          width: 98%;
+          margin-left: auto;
+          margin-right: auto;
+          
+          
+      }
+  
+      .d-block{
+          height: 200px;
+          border-radius: 15px;
+      }
+  
+  
+  
+  
+      .title{
+          width: 98%;
+          margin-left: auto;
+          margin-right: auto;
+          color: rgb(0, 0, 0);
+          margin-bottom: 2vh;
+      
+      }
+      
+      
+      .HEAD{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          font-style: normal;
+          color: rgb(0, 0, 0);
+          
+      }
+      
+      
+      
+      
+      .round-images{
+          
+          
+          width: 125px;
+          height: 125px;
+          object-fit:cover; 
+          border-radius: 50%;
+      
+      
+      }
+      
+      .cast{
+      
+          display: flex;
+          justify-content:space-evenly;
+          align-items:center;
+      }
+      
+      
+      
+      .text{
+          width: 98%;
+          margin-left: auto;
+          margin-right: auto;
+          
+          
+      
+      
+          color: rgb(0, 0, 0);
+      }
+      
+        
+      
+      .castclub{
+      
+          margin-bottom: 30px;
+      }
+  
+      
+      
+      .container{
+          position:relative;
+          text-align: center;
+          color: rgb(0, 0, 0);
+      
+      }
+      
+      
+      
+      
+      
+      .bg {
+          position: absolute;
+          top: 0;
+          left: 1%;
+          width: 98%;
+          border-radius: 15px;
+          
+          height: 300px;
+      }
+      
+      .hsimg{
+          position: relative;
+          margin-top: 2vh;
+          height: 300px;
+          width: 300px;
+          display:flex;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+         
+      }
+      
+      
+      
+      .gallery{
+      
+          height: 200px;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          overflow: auto;
+          white-space: nowrap;
+          
+          
+          background-color: #ffffff;
+          margin-bottom: 80px;
+          
+      
+      }
+  
+  
+      /*Removing the scroll bar during overflows*/
+  
+          /* Hide scrollbar for Chrome, Safari and Opera */
+          .gallery::-webkit-scrollbar {
+              display: none;
+          }
+          
+          /* Hide scrollbar for IE, Edge and Firefox */
+          .gallery {
+              -ms-overflow-style: none;  /* IE and Edge */
+              scrollbar-width: none;  /* Firefox */
+          }
+          
+      /*Removing the scroll bar during overflows*/
+      
+      .gimg{
+          
+          width: 143px;
+          
+          padding-left: 8px;
+          
+          height: 200px;
+      }
+  
+      .button {
+          background-color: #ffffff;
+          border: 4px color-mix(in srgb, color percentage, color percentage);
+          color: rgb(0, 0, 0);
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 16px;
+          
+        }
+  
+        .button:hover{
+          background-color: #25D366;
+          
+          
+        }
+      
+      .bottombutton{
+          position: fixed;
+          bottom: 0%;
+          display: flex;
+          justify-content: space-evenly;
+          width: 100%;
+      
+      }
+  
+  
+      .circlebutton{
+  
+  
+          background-color:rgb(255, 255, 255);
+          
+          
+          height: 70px;
+          width: 70px;
+          padding: auto;
+          
+          
+          
+          
+          color: rgb(0, 0, 0);
+          border-radius: 50%;
+  
+  
+      }
+  
+  
+  
+  
+  
+      .circular-button{
+          position: fixed;
+          bottom: 0%;
+          display: flex;
+          justify-content:end;
+          right: 3.5%;
+          bottom: 5%;
+          width: 100%;
+      
+      }
+  
+  
+  
+      .themebutton{
+  
+  
+          background-color:rgb(0, 0, 0);
+          
+          
+          height: 45px;
+          width: 45px;
+          padding: auto;
+          font-size: 10px;
+          
+          
+          
+          
+          color: rgb(255, 255, 255);
+          border-radius: 50%;
+  
+  
+      }
+  
+  
+  
+  
+  
+      .theme-button{
+          position: relative;
+          top: 0.7%;
+          
+          display: flex;
+          justify-content:end;
+          right: 0%;
+          
+          
+      
+      }
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*MOVIE*/
+
+
+    .navbuttoncontainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 0;
+        left: 0;
+    
+    }
+
+    .navbutton{
+        width: 14rem;
+        height: 50px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
+        border-style:solid;
+    }
+
+    .navbutton:hover{
+        background-color: crimson;
+        
+        
+      }
+    
+
+    .sideheads{
+        margin-top: 25px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+    }
+    
+    .rec{
+        width: 195px;
+        height: 110px;
+        background-color: orange;
+        position: relative;
+        border-radius: 10px;
+        
+        
+    }
+    
+    .movietext{
+    
+        width: 195px;
+        position: relative;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        
+        
+    }
+    
+    
+    
+    .movieandtext{
+        margin-right: 5px;
+        margin-left: 10px;
+    
+        
+        
+    }
+    
+    .movie{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 140px;
+        
+        
+        
+        overflow-x: auto;
+      
+        
+    }
+    
+    .recimg{
+    
+        width: 195px;
+        height: 110px;
+        border-radius: 10px;
+    }
+    
+
+
+
+    .genrerec{
+        width: 210px;
+        height: 375px;
+        background-color: orange;
+        position: relative;
+        border-radius: 10px;
+        
+        
+    }
+    
+    .genretext{
+    
+        width: 210px;
+        position: relative;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        
+        
+    }
+    
+    
+    
+    .genremovieandtext{
+        margin-right: 5px;
+        margin-left: 10px;
+    
+        
+        
+    }
+    
+    .genre{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 400px;
+        
+        
+        
+        overflow-x: auto;
+      
+        
+    }
+    
+    .genrerecimg{
+    
+        width: 210px;
+        height: 375px;
+        border-radius: 10px;
+    }
+    
+    /*Removing the scroll bar during overflows*/
+    
+            /* Hide scrollbar for Chrome, Safari and Opera */
+            .movie::-webkit-scrollbar {
+                display: none;
+            }
+            
+            /* Hide scrollbar for IE, Edge and Firefox */
+            .movie {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+            
+    /*Removing the scroll bar during overflows*/
+
+    .actors{
+    
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+        
+    }    
+
+    .movieactors{
+        margin-bottom: 30px;
+        overflow-x: auto;
+
+    }
+
+    .movieactorsroundimg{
+        width: 125px;
+        height: 125px;
+        object-fit:cover; 
+        border-radius: 50%;
+        margin: 0 5px;
+    
+
+    }
+
+ 
+
+
+
+
+    /*MOVIE*/
+
+
+       /*MUSIC*/
+
+
+       .musicpage{
+        margin-top: 150px;
+    }
+
+
+
+     /*MUSIC*/
+
+    
+
+
+@media screen and (min-width:410px) and (max-width:610px) {
+    
+    /*already compatible from width 410px to 600px*/
+
+}    
+
+@media screen and (min-width:611px) and (max-width:744px){
+
+.d-block{
+
+    height:250px;
+}
+    
+}
+
+@media screen and (min-width:745px) {
+
+    .d-block{
+
+        height:350px;
+    }
+
+    .round-images{
+        width: 170px;
+        height: 170px;
+        object-fit:cover; 
+        border-radius: 50%;
+    }
+    
+}
+
+/*Removing the scroll bar during overflows*/
+    
+            /* Hide scrollbar for Chrome, Safari and Opera */
+            .wokrspace::-webkit-scrollbar {
+                display: none;
+            }
+            
+            /* Hide scrollbar for IE, Edge and Firefox */
+            .workspace {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+
+            .movieactors::-webkit-scrollbar {
+                display: none;
+            }
+            .movieactors {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+
+            .genre::-webkit-scrollbar {
+                display: none;
+            }
+            .genre {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+            
+/*Removing the scroll bar during overflows*/
+
+
+    
+    
+      

@@ -28,9 +28,19 @@
 
 .logo{
     display: flex;
-    justify-content: center;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
     
     }
+
+.bottomlogo{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content:center;
+}    
     
     
     
@@ -219,10 +229,80 @@
         bottom: 0%;
         display: flex;
         justify-content: space-evenly;
-        width: 98%;
+        width: 100%;
     
     }
 
+
+    .circlebutton{
+
+
+        background-color:rgb(0, 0, 0);
+        
+        
+        height: 70px;
+        width: 70px;
+        padding: auto;
+        
+        
+        
+        
+        color: rgb(255, 255, 255);
+        border-radius: 50%;
+
+
+    }
+
+
+
+
+
+    .circular-button{
+        position: fixed;
+        bottom: 0%;
+        display: flex;
+        justify-content:end;
+        right: 3.5%;
+        bottom: 5%;
+        width: 100%;
+    
+    }
+
+
+
+    .themebutton{
+
+
+        background-color:rgb(0, 0, 0);
+        
+        
+        height: 45px;
+        width: 45px;
+        padding: auto;
+        font-size: 10px;
+        
+        
+        
+        color: rgb(255, 255, 255);
+        border-radius: 50%;
+
+
+    }
+
+
+
+
+
+    .theme-button{
+        position: fixed;
+        top: 0.7%;
+        display: flex;
+        justify-content:end;
+        right: 3%;
+        
+        
+    
+    }
    
     
 
@@ -314,6 +394,58 @@
         border-radius: 10px;
     }
     
+
+
+
+    .genrerec{
+        width: 210px;
+        height: 375px;
+        background-color: orange;
+        position: relative;
+        border-radius: 10px;
+        
+        
+    }
+    
+    .genretext{
+    
+        width: 210px;
+        position: relative;
+        text-align: center;
+        color: white;
+        
+        
+    }
+    
+    
+    
+    .genremovieandtext{
+        margin-right: 5px;
+        margin-left: 10px;
+    
+        
+        
+    }
+    
+    .genre{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 400px;
+        
+        
+        
+        overflow-x: auto;
+      
+        
+    }
+    
+    .genrerecimg{
+    
+        width: 210px;
+        height: 375px;
+        border-radius: 10px;
+    }
     
     /*Removing the scroll bar during overflows*/
     
@@ -354,46 +486,8 @@
 
     }
 
-    .genre{
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        height: 375px;
-        
-        
-        
-        overflow-x: auto;
-      
-        
-    }
+ 
 
-    .genrerec{
-        width: 200px;
-        height: 350px;
-        background-color: orange;
-        position: relative;
-        border-radius: 10px;
-        
-        
-    }
-
-    .genreimg{
-    
-        width: 200px;
-        height: 375px;
-        border-radius: 10px;
-    }
-    
-
-    .genretext{
-    
-        width: 200px;
-        position: relative;
-        text-align: center;
-        color: white;
-        
-        
-    }
 
 
 
