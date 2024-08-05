@@ -302,7 +302,7 @@
 
 
     .theme-button{
-        position: fixed;
+        position: relative;
         top: 0.7%;
         display: flex;
         justify-content:end;
