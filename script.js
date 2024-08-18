@@ -7,4 +7,57 @@ window.addEventListener('load', function() {
 
 
 
+function btn0(){
+    document.getElementById("btn0").style.display='none'
+
+    document.getElementById("btn1").style.display='block'
+
+    document.getElementById("btn2").style.display='block'
+
+    document.getElementById("btn3").style.display='block'
+
+    document.getElementById("btn4").style.display='block'
+
+}
+
+function btn1(){
+
+    document.getElementById("btn0").style.display='block'
+
+    document.getElementById("btn1").style.display='none'
+
+    document.getElementById("btn2").style.display='none'
+
+    document.getElementById("btn3").style.display='none'
+
+    document.getElementById("btn4").style.display='none'
+
+
+}
+
+function light(){
+
+    alert("Abhi kam chal raha hain ")
+}
+
+
+
+
+
+function validate()
+{
+    if(   document.getElementById("username").value == "time"
+       && document.getElementById("password").value ==  "pass")
+    {
+        alert( "validation successful" );
+        window.location="chats.html"
+       
+    }
+    else
+    {
+        alert( "validation failed" );
+        
+    }
+}
+
 

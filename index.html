@@ -22,13 +22,16 @@
 <body>
 
 
+  
+
+
   <div id="logo" class="load-logo">
     <img src="logo.jpg" alt="" width="10%" height="10%">
   </div>
 
 
 
-  <div id="loader" class="loader"> <img src="13.gif" alt="" class="loading-logo"> </div>
+  <div id="loader" class="loader"> <img src="wd2/13.gif" alt="" class="loading-logo"> </div>
   <div id="loader-text" class="HEAD" style="margin-top: 2vh;">
     <h2>"Hold on a sec , lemme cook"  </h2>
   </div>
@@ -41,12 +44,15 @@
       <div class="logo">
           <img src="logo.jpg" alt="" width="50px" height="50px" class="logopos">
           <div class="theme-button">
-              <a href="light-theme.html">
-                  <button class="themebutton">Light</button>
-              </a>
+            
+            <button class="themebutton" id="themebtn" onclick="light()">Light</button>
+              
           </div> 
       </div>
     </a>  
+
+
+ 
 
 
         <div class="center">
@@ -159,16 +165,17 @@
 
 
               <div class="bottomlogo">
-                <img src="footergif.gif" alt="" height="100" width="150" style="margin-bottom: 90px;">
+                <img src="footergif.gif" alt="" height="100" width="150" style="margin-bottom: 5px;">
               </div>
-      
+
+              
 
 
 
 
               
             
-              <div class="bottombutton">
+             <!--<div class="bottombutton">
                   
                   <a href="chats.html">
                     <button class="button">Chats</button>
@@ -176,7 +183,48 @@
                   <a href="movies.html">
                   <button class="button">Media</button>
                   </a>
+              </div> -->
+
+
+              <div class="bottombuttontrail">
+                  
+                <button id="btn0" class="circlebuttontrail" onclick="btn0()">000</button>
+              
               </div> 
+
+                <div class="bottombuttonclub">
+                  <div class="bottombuttonsingletrail">
+                    <a href="index.html">
+                    <button id="btn1" class="circlebuttontrail">Home</button>
+                    </a>  
+                  </div> 
+
+
+                  <div class="bottombuttongrouptrail">
+                    <a href="login.html">
+                      <button id="btn2" class="circlebuttontrail">Chats</button>
+                    </a>  
+                    
+                    <button id="btn3" class="circlebuttontrail" onclick="btn1()" >000</button>
+
+                    <a href="movies.html" >
+                      <button id="btn4" class="circlebuttontrail">Media</button>
+                    </a>
+                  
+                  </div> 
+                </div>
+
+
+                
+
+
+                
+                
+                 
+                  
+
+
+
 
 
 

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <title>CINEWARD</title>
@@ -23,9 +24,9 @@
         <div class="logo">
             <img src="logo.jpg" alt="" width="50px" height="50px" class="logopos">
             <div class="theme-button">
-                <a href="light-music.html">
-                    <button class="themebutton">Light</button>
-                </a>
+              
+                <button class="themebutton" id="themebtn" onclick="light()">Light</button>
+
             </div> 
         </div>
       </a>  
@@ -51,7 +52,7 @@
     </div>          
 
 
-    <div class="bottombutton">
+   <!-- <div class="bottombutton">
 
         <a href="index.html">
             <button class="button">Home</button>
@@ -63,7 +64,35 @@
         <a href="chats.html">
             <button class="circlebutton">Chats</button>
         </a>
-    </div> 
+    </div> -->
+
+    <div class="bottombuttontrail">
+                  
+        <button id="btn0" class="circlebuttontrail" onclick="btn0()">000</button>
+      
+      </div> 
+
+        <div class="bottombuttonclub">
+          <div class="bottombuttonsingletrail">
+            <a href="index.html">
+            <button id="btn1" class="circlebuttontrail">Home</button>
+            </a>  
+          </div> 
+
+
+          <div class="bottombuttongrouptrail">
+            <a href="login.html">
+              <button id="btn2" class="circlebuttontrail">Chats</button>
+            </a>  
+            
+            <button id="btn3" class="circlebuttontrail" onclick="btn1()" >000</button>
+
+            <a href="movies.html" >
+              <button id="btn4" class="circlebuttontrail">Media</button>
+            </a>
+          
+          </div> 
+        </div>
     
 
 
