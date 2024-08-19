@@ -44,8 +44,6 @@ function light(){
 
 
 
-var user=document.getElementById("d88d36a411cf807b75678e899eb6584731daa9eb1605b84e95afd5c9044672299f4cb4ac57dc1570e6f64841534db6301e320e64bc9fcaf39d939fae3e80e770").textContent;          
-
 
 
 
@@ -54,7 +52,7 @@ var user=document.getElementById("d88d36a411cf807b75678e899eb6584731daa9eb1605b8
 
 function validate()
 {
-    if(   document.getElementById("username").value == user
+    if(   document.getElementById("username").value == "time"
        && document.getElementById("password").value ==  "pass")
     {
         alert( "validation successful" );
