@@ -52,8 +52,8 @@ function light(){
 
 function validate()
 {
-    if(   document.getElementById("username").value == "time"
-       && document.getElementById("password").value ==  "pass")
+    if(   document.getElementById("username").value == "nolan"
+       && document.getElementById("password").value ==  "dusk")
     {
         alert( "validation successful" );
         window.location="chats.html"
